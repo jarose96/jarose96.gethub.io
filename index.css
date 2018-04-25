@@ -1,0 +1,245 @@
+body {
+    background: #FFF2CC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background: white;
+    margin: 0.5em 0;
+}
+
+a {
+    color: #00478F;
+    cursor: pointer;
+}
+
+a:link {
+    color: #00478F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #00478F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+a:active {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+a h3 {
+    color: black;
+    cursor: pointer;
+}
+
+a h3:link {
+    color: #00478F;
+    text-decoration: none;
+}
+
+a h3:visited {
+    color: #00478F;
+    text-decoration: none;
+}
+
+a h3:hover {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+a h3:active {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-family: 'Merriweather', serif;
+}
+
+#logo {
+    background:white;
+    max-width: 400px;
+    align-content: center;
+}
+
+.blue-background {
+    background: #00478F;
+}
+
+.blue-border {
+    border: #00478F 2px solid;
+}
+
+.grey {
+    color: grey;
+}
+
+.margin {
+    margin: 0.5em 0 0 0;
+}
+
+.padding {
+    padding: 0.5em;
+}
+
+#headerText {
+    text-align: left;
+    font-size: 25px;
+    color: #99BADD;
+}
+    
+#header {
+    align-content: center;
+}
+
+.navbar-toggler {
+    background: #00478F;
+}
+
+.nav-item .active .nav-lin {
+    color:#4D4D4D;
+}
+
+.news {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+.email {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.5em ;
+}
+
+.sing-up-border {
+    border: solid black 1px;
+}
+
+.sign-up {
+    background: #00478F;
+    border: solid black 1px;
+}
+
+.sign-up a {
+    color: white;
+}
+
+.btn:link {
+    background: #00478F;
+    color: white;
+    border: solid 1px black;
+}
+
+.btn:visited  {
+    background: #00478F;
+    color: white;
+    border: solid 1px black;
+}
+
+.btn:hover {
+    background: #DC8400;
+    color: #00478F;
+    border: solid 1px black;
+}
+
+.btn:active {
+    background: #DC8400;
+    color: #00478F;
+    border: solid 1px black;
+}
+
+.events {
+    background: white;
+    margin: 0.5em 0em 0 0em;
+    padding: 0.5em;
+}
+
+.event {
+    background: white;
+    padding: 0.5em;
+}
+
+.evtimg {
+    padding: 0.5em;
+    background: white;
+}
+
+.bottom {
+    background: white;
+    margin: 0.5em 0em 0 0em;
+    padding: 0.5em;
+}
+.quick {
+    background: white;
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.mission {
+    background: white;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background: #4D4D4D;
+}
+
+.footer a {
+    color: white;
+}
+
+.support:link {
+    color: white;
+    text-decoration: none;
+}
+
+.support:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.support:hover {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+.support:active {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+@media (min-width:750px) {
+    .navbar {
+        position: absolute;
+        bottom:0;
+        right: 0;
+    }
+    
+   
+}
+
+@media (min-width:970px) {
+   
+}
