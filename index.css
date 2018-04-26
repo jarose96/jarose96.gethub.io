@@ -186,6 +186,7 @@ h3 {
     margin: 0.5em 0em 0 0em;
     padding: 0.5em;
 }
+
 .quick {
     background: white;
     box-sizing: border-box;
@@ -243,8 +244,28 @@ h3 {
 }
 
 .dropdown:hover .dropdown-menu {
-            display:block;
+    display:block;
 }
+
+.Calendar {
+ 
+    position: relative; 
+    padding-bottom: 75%; 
+    height: 0; 
+    overflow: hidden;
+ 
+}
+ 
+.Calendar iframe {
+ 
+    position: absolute; 
+    top:0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+ 
+}
+
 
 
 @media (min-width:750px) {
