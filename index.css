@@ -76,8 +76,6 @@ h3 {
 
 #logo {
     background:white;
-    max-width: 400px;
-    align-content: center;
 }
 
 .blue-background {
@@ -101,7 +99,7 @@ h3 {
 }
 
 #headerText {
-    text-align: left;
+    text-align: right;
     font-size: 25px;
     color: #99BADD;
 }
@@ -230,6 +228,25 @@ h3 {
     text-decoration: none;
 }
 
+.dark-border {
+    border: #4D4D4D 2px solid;
+}
+
+#emailLink {
+    color:black;
+    cursor: pointer;
+}
+
+#emailLink:hover {
+    color: #DC8400;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+            display:block;
+}
+
+
 @media (min-width:750px) {
     .navbar {
         position: absolute;
@@ -240,6 +257,29 @@ h3 {
    
 }
 
-@media (min-width:970px) {
-   
+@media (max-width: 575px) {
+    .divider {
+        background-color: #FFF2CC;
+        height: 20px;
+    }
+    .missionContainer {
+        border: #4D4D4D 2px solid;
+        background-color: #FFFFFF;
+    }
+    .quickContainer {
+        border: #4D4D4D 2px solid;
+        background-color: #FFFFFF;
+    }
+    .borderContainer {
+        background-color: #FFF2CC;
+    }
+    .bottom {
+        background-color: #FFF2CC;
+    }
+}
+
+@media (min-width: 575px) {
+    .bottom {
+        border: #4D4D4D 2px solid;
+    }
 }
